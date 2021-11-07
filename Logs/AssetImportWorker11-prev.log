@@ -15,11 +15,11 @@ C:/Users/Yaris/Desktop/Desarrollo de entornos de realidad virtual/Game/DERV_02_U
 -logFile
 Logs/AssetImportWorker11.log
 -srvPort
-58115
+49770
 Successfully changed project path to: C:/Users/Yaris/Desktop/Desarrollo de entornos de realidad virtual/Game/DERV_02_Unidad_2_Proyecto
 C:/Users/Yaris/Desktop/Desarrollo de entornos de realidad virtual/Game/DERV_02_Unidad_2_Proyecto
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 200.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 548.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,5 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly

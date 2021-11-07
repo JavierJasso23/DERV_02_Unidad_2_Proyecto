@@ -14,6 +14,7 @@ public class Main_2 : MonoBehaviour
     void Start()
     {
         intentos = PlayerPrefs.GetInt("Muertes");
+        Debug.Log("Muertes al momento - " + intentos);
     }
 
     // Update is called once per frame
@@ -26,7 +27,7 @@ public class Main_2 : MonoBehaviour
     {
         //GameObject obj = Instantiate(Player, Respawn.transform.position, Respawn.transform.rotation) as GameObject;
         Player.transform.position = Respawn.transform.position;
-        PlayerPrefs.SetInt("Muertes", intentos++);
-        PlayerPrefs.Save();
+        intentos++;
+        PlayerPrefs.SetInt("Muertes", intentos);
     }
 }

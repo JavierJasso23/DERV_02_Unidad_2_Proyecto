@@ -19,8 +19,6 @@ public class DetectorMovimiento : MonoBehaviour
 
     void Start()
     {
-        PlayerPrefs.SetInt("Muertes", muertes);
-
         empezar();
     }
 
@@ -46,8 +44,8 @@ public class DetectorMovimiento : MonoBehaviour
                 PosActual = Player.position.z;
                 if (PosActual > PosAnterior)
                 {
-                    PlayerPrefs.SetInt("Muertes", muertes++);
-                    PlayerPrefs.Save();
+                    muertes++;
+                    PlayerPrefs.SetInt("Muertes", muertes);
                     Player.position = Respawn.position;
                     PosAnterior = Player.position.z;
                 }

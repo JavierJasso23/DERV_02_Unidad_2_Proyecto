@@ -1538,7 +1538,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Respawn: {fileID: 1953475480}
   Player: {fileID: 1743902914228310}
-  intentos: 0
 --- !u!1 &1001458524
 GameObject:
   m_ObjectHideFlags: 0
@@ -4081,7 +4080,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743902914228310}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}

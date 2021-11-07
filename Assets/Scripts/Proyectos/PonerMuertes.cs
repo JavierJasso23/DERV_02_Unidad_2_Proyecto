@@ -8,10 +8,14 @@ public class PonerMuertes : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI txtMuertes;
 
+    int muertes;
+
     // Start is called before the first frame update
     void Start()
     {
-        txtMuertes.text = "Total de muertes "+PlayerPrefs.GetInt("Muertes").ToString();
+        muertes = PlayerPrefs.GetInt("Muertes");
+        Debug.Log("TOTAL: " + muertes);
+        txtMuertes.text = "Total de muertes: " + muertes.ToString();
     }
 
 }
