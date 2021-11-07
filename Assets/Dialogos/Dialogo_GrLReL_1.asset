@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd9b7a667a06564084f21b141a69010, type: 3}
+  m_Name: Dialogo_GrLReL_1
+  m_EditorClassIdentifier: 
+  mensaje:
+  - personaje: {fileID: 11400000, guid: 907435aff12dc9b43b8a6991eecec392, type: 2}
+    dialogo: "Oh Espera, \xA1conozco este juego! Se llama Green Light Red Light,
+      esto lo jugaba de peque\xF1o."
+  - personaje: {fileID: 11400000, guid: ab33d57728421f24cb6b1d2614b68686, type: 2}
+    dialogo: "Yo tambi\xE9n, recuerda que podemos movernos con W, A, S, y D en diferentes
+      direcciones mientras la mu\xF1eca horrible del fondo no nos vea, si nos ve,
+      estaremos muertos hijo."
+  - personaje: {fileID: 11400000, guid: 907435aff12dc9b43b8a6991eecec392, type: 2}
+    dialogo: "Mue\u2026 mue\u2026 \xBF\xA1MUERTOS!?"
+  - personaje: {fileID: 11400000, guid: ab33d57728421f24cb6b1d2614b68686, type: 2}
+    dialogo: "Descuida hijo, si mueres vuelves a aparecer y podr\xE1s intentarlo
+      de nuevo, mucha suerte, te vere al final."
+  - personaje: {fileID: 11400000, guid: 907435aff12dc9b43b8a6991eecec392, type: 2}
+    dialogo: "Bien, puedo hacer esto, lo har\xE9 por ti hija m\xEDa\u2026 Debo presionar
+      Q y avanzar, \xA1No hay vuelta atras!"

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2674b7edf915d9b40bfe285f27d28992
+  - enabled: 1
+    path: Assets/Scenes/Conversacion.unity
+    guid: 193cc3beab0ede948baf494a011fecbd
+  - enabled: 1
+    path: Assets/Scenes/SquidGame.unity
+    guid: c3e21a2ba2f8b3843bcc3276f3542dcd
+  - enabled: 1
+    path: Assets/Scenes/SquidGame_2.unity
+    guid: b9a1bf50fe03d2d4aa8983a9266b6ae6
+  - enabled: 1
+    path: Assets/Scenes/FinalGame.unity
+    guid: 32e96a5d645eb1a48bf7ae00863f8e4e
+  m_configObjects: {}

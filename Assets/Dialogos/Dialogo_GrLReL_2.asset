@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd9b7a667a06564084f21b141a69010, type: 3}
+  m_Name: Dialogo_GrLReL_2
+  m_EditorClassIdentifier: 
+  mensaje:
+  - personaje: {fileID: 11400000, guid: ab33d57728421f24cb6b1d2614b68686, type: 2}
+    dialogo: "\xA1Hijo! lo lograste, pudiste llegar hasta el final."
+  - personaje: {fileID: 11400000, guid: 907435aff12dc9b43b8a6991eecec392, type: 2}
+    dialogo: Jolines no puedo creer que lo hice...
+  - personaje: {fileID: 11400000, guid: ab33d57728421f24cb6b1d2614b68686, type: 2}
+    dialogo: "Tranquilizate, queda un juego m\xE1s, si logras terminar ese juego
+      ganaremos el dinero."
+  - personaje: {fileID: 11400000, guid: 907435aff12dc9b43b8a6991eecec392, type: 2}
+    dialogo: "Bien, vamos all\xE1, \xA1se que lo puedo conseguir!"
